@@ -1,6 +1,7 @@
 *{
     margin: 0;
-    padding: 0vw;
+    padding: 0;
+    background-color: #181a1b;
 }
 
 .first{
@@ -9,7 +10,7 @@
 .first_a{
     padding: 10px 50px;
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
 }
@@ -48,7 +49,7 @@
 }
 
 .second{
-    margin: 5% 10% 5% 10%;
+    margin: 10% 10% 5% 10%;
     display: flex;
     /* margin-top: 10%; */
     padding-bottom: 10%;
@@ -62,6 +63,7 @@
     font-size: 60px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 70px;
+    color: white;
     /* padding-bottom: 90%; */
 }
 /* .second_a_1{
@@ -96,7 +98,8 @@
 
 .third{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-bottom: 10%;
+    margin-bottom: 15%;
+    color: white;
 }
 .third_h1{
     font-size: 50px;
@@ -136,42 +139,104 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 70px;
     margin: 5% 10% 5% 10%;
+    color: white;
 }
 .fourth{
-    margin: 5% 10% 5% 10%;
+    margin: 5% 10% 30% 10%;
     display: flex;
-    height: 90%;
+    height: 100%;
+    color: white;
 }
 .div007{
-    border: 1px solid white;
+    border: 1px solid black;
     margin: 2%;
     border-radius: 20px;
     text-align: center;
     height: 1%;
+    padding-bottom: 2%;
 }
 .img007{
     width: 100%;
     height: 50%;    
     border-top: 20px;
     border-radius: 20px 20px 0 0;
-    margin-bottom: 15%;
+    margin-bottom: 10%;
 }
 .p007{
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    font-size: 17px;
+    font-family: "Varela Round", sans-serif;
+    font-weight: lighter;
+    /* font-style: normal; */
+    letter-spacing: 2px;
+    /* text-align: start/; */
+    font-size: 20px;
+    word-spacing: 2px;
+    line-height: 25px;
     margin-bottom: 15%;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 .a007{
     text-decoration: none;
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px;
+    word-spacing: 2px;
     font-size: 20px;
-    padding-bottom: 5%;
+    /* padding-bottom: 5%; */
     /* text-align: center; */
 }
 .a007:hover{
     text-decoration: underline;
     text-decoration-line: underline;
     text-decoration-thickness: 1px;
+}
+/* .fourth_1_img{
+    width: 80%;
+} */
+
+.fifth{
+    display: flex;
+    margin: 5% 30% 3% 30%;
+}
+.fifth_h1{
+    font-size: 90px;
+    color: white;
+    margin-right: 25%;
+    margin-top: 5%;
+}
+/* .fifth_table{
+    text-align: left;
+} */
+.fifth_td{
+    padding: 12px;
+    /* text-align: left; */
+}
+.fifth_a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Varela Round", sans-serif;
+    /* padding: 12px; */
+    color: white;
+}
+.fifth_a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
+.td_bonus{
+    padding-right: 32px;
+}
+.td_finale{
+    padding-left: 12px;
+}
+
+.six{
+    margin: 0% 35% 3% 35%;
+    font-family: "Varela Round", sans-serif;
+    color: white;
+}
+.six_td{
+    padding: 12px;
+    font-size: 18px;
 }
