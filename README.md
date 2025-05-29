@@ -1,1 +1,1 @@
-Hello there! Now the websites that i am making is not responsive. It will be better if you visit this website in computer or laptop. It will be look better in Computer..
+Hello there! Now the websites that I am making are not responsive. Please visit this website on a computer or laptop. It will look better on the Computer..
